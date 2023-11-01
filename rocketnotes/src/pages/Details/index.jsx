@@ -1,6 +1,6 @@
 import {Container } from "./styles.js";
 
-import { Button } from "../../components/Button"
+import { Button } from '../../components/Button';
 
 export function Details() {
   return (
@@ -8,7 +8,9 @@ export function Details() {
       <h1>Hello Word!</h1>
       <span>Gabriel Farias</span>
 
-      <Button/>
+      <Button title="Login" loading />
+      <Button title="Cadastrar"/>
+      <Button title="Voltar"/>
     </Container>
   )
 };
