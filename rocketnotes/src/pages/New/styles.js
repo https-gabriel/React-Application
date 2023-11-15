@@ -11,3 +11,25 @@ export const Container = styled.div`
     "header"
     "content";
 `;
+
+export const Form = styled.form`
+    max-width: 550px;
+    margin: 30px auto;
+
+    > header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-bottom: 36px;
+
+        a {
+        color: ${({ theme }) => theme.COLORS.GRAY_100};
+        font-family: Roboto Slab;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        }
+    }
+`;
