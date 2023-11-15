@@ -16,8 +16,8 @@ export function New() {
                         <a href="/">voltar</a>
                     </header>
 
-                    <Input placeholder="Titulo"/>
-                    <Textarea placeholder="Observacoes"/>
+                    <Input placeholder="Título"/>
+                    <Textarea placeholder="Observações"/>
                 </Form>
 
                 
