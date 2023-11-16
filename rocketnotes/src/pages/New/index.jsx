@@ -31,6 +31,10 @@ export function New() {
                         <div className='tags'>
                             <NoteItem value="React"/>
                             <NoteItem isNew placeholder="Novo tag"/>
+                            <NoteItem value="React"/>
+                            <NoteItem isNew placeholder="Novo tag"/>
+                            <NoteItem value="React"/>
+                            <NoteItem isNew placeholder="Novo tag"/>
                         </div>
                     </Section>
 
